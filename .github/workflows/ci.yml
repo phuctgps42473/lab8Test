@@ -30,6 +30,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '21'  # Specify Java version to use for Maven build
+          distribution: 'temurin'
 
       # Step 3: Build the project using Maven (clean install)
       - name: Build with Maven
