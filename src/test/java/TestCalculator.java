@@ -43,5 +43,13 @@ public class TestCalculator {
         calculator.div(0);
         Assert.assertEquals(0, calculator.getResult());
     }
+
+    @Test
+    public void testFail() {
+        calculator.plus(100);
+        calculator.div(0);
+        Assert.assertEquals(1, calculator.getResult());
+    }
+
 }
 
