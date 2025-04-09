@@ -43,5 +43,6 @@ public class TestCalculator {
         calculator.div(0);
         Assert.assertEquals(0, calculator.getResult());
     }
+
 }
 
